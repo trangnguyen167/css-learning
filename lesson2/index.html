@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Box Model: Padding, Border, Margin</title>
+  <style>
+    .content {
+      background-color: yellow;
+      width: 150px;
+      height: 50px;
+    }
+
+    .no-padding {
+      padding: 0;
+      border: 1px solid black;
+    }
+
+    .padding {
+      padding: 100px;
+      border: 1px solid black;
+      margin-top: 20px;
+    }
+
+    span {
+      display: inline-block;
+      border: 1px solid black;
+    }
+
+    .low-space {
+        margin-left: 1rem;
+    }
+    .med-space {
+        margin-left: 5rem;
+    }
+    .high-space {
+        margin-left: 10rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="content">
+    This is content 1
+  </div>
+
+  <div class="no-padding">
+    I have no padding
+  </div>
+
+  <div class="padding">
+    I have padding
+  </div>
+
+  <span class="low-space">A</span>
+  <span class="med-space">B</span>
+  <span class="high-space">C</span>
+</body>
+</html>
